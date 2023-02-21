@@ -1,9 +1,10 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Sawarabi Gothic', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sawarabi Gothic', sans-serif;
 }
+
 
 /*SECTION CLUB GRIDO*/
 .container{
@@ -83,3 +84,133 @@ li {
   border: 1px solid  rgb(215, 215, 219);
   border-radius: 10px;
 }
+
+/* nav */
+
+.logo-grido {
+    width: 100px;
+}
+
+.lista {
+    background-color: rgb(16, 6, 159);
+    height: 5vh;
+    color: white;
+}
+
+.lista-info {
+    list-style: none;
+
+}
+
+.lista-info li {
+    margin: 6px;
+
+}
+
+.item-p {
+    border-right: 2px solid white;
+    padding: 0 10px;
+}
+
+.item {
+    font-size: .8rem;
+    color: white;
+    text-decoration: none;
+
+}
+
+
+.button {
+    background-color: rgb(65, 175, 228);
+    padding: 7px;
+    border-radius: 10px;
+}
+
+nav {
+    height: 10vh;
+    background-color: rgb(247, 250, 252, 0.8);
+}
+
+.lista2 {
+    text-decoration: none;
+    list-style: none;
+}
+
+.item2 {
+    margin: 10px;
+    list-style: none;
+    color: rgb(62, 55, 177);
+    font-weight: 900;
+    font-size: 1rem;
+
+}
+
+.button2 {
+    background-color: rgb(16, 6, 159);
+    padding: 7px;
+    border-radius: 10px;
+    color: white;
+}
+
+.ocult {
+    display: none;
+}
+
+.bi-caret-right-fill {
+    color: rgb(65, 175, 228);
+}
+
+@media (max-width:426px) {
+    .button {
+        margin-right: 70px;
+        display: block;
+
+
+    }
+}
+
+
+@media (max-width:992px) {
+    .logo-grido {
+        width: 80px;
+    }
+
+    .ocult {
+        display: block;
+    }
+
+    .arrow-hidden {
+        display: none;
+    }
+
+    .item-p {
+        display: none;
+    }
+
+    .item {
+        font-size: 1rem;
+    }
+
+
+    .div-p {
+        display: flex;
+        justify-content: left;
+    }
+
+    .lista2 {
+        background-color: rgb(16, 6, 159);
+
+
+    }
+
+    .nav-item {
+        border-bottom: 1px solid white;
+    }
+
+    .item2 {
+        color: white;
+    }
+}
+
+/* end nav */
+
