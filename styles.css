@@ -38,6 +38,11 @@
   justify-content: end;
   color: rgb(51, 51, 167);
 }
+@media(max-width: 500px){
+  .title{
+    justify-content: start;
+  }
+}
 .tab-club-items{
   border-left: 1px solid  rgb(215, 215, 219);
   border-right: 1px solid  rgb(215, 215, 219);
