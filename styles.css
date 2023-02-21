@@ -5,6 +5,86 @@
     font-family: 'Sawarabi Gothic', sans-serif;
 }
 
+
+/*SECTION CLUB GRIDO*/
+.container{
+  display: flex;
+  justify-content: center;
+}
+.firstrow{
+  padding: 2rem;
+}
+.logo{
+  width: 100px;
+  height: 45px;
+  background-color:  rgb(51, 51, 167);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-left: 15px;
+  transform: skew(-10deg, 0deg)
+}
+#logo-club-grido{
+  color: rgb(19, 19, 83);
+  width: 70px;
+  height: 35px;
+  margin-top: 5px;
+  
+  background-color:  rgb(51, 51, 167);
+  transform: rotateY('20');
+}
+
+.title{
+  display: flex;
+  justify-content: end;
+  color: rgb(51, 51, 167);
+}
+@media(max-width: 500px){
+  .title{
+    justify-content: start;
+  }
+}
+.tab-club-items{
+  border-left: 1px solid  rgb(215, 215, 219);
+  border-right: 1px solid  rgb(215, 215, 219);
+}
+ul li a{
+  text-decoration: none;
+  
+}
+li {
+  margin-left: -20px;
+  list-style-type:none;
+  font-size: 0.75rem;
+}
+#tentacion {
+  font-style:italic  !important;
+  font-weight:700;
+  margin:0;
+}
+
+.btn-quierosersocio{
+  background-color:  rgb(103, 27, 126);
+  width: 170px;
+  height: 30px;
+  display: flex;
+  text-align: end;
+  transform: skew(-8deg, 0deg);
+  margin-top: 20px;
+  margin-left: 80px;
+}
+.btn-p{
+  font-size: 1rem;
+  height: auto;
+  color: aliceblue;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+#border{
+  border: 1px solid  rgb(215, 215, 219);
+  border-radius: 10px;
+}
+
 /* nav */
 
 .logo-grido {
@@ -133,3 +213,4 @@ nav {
 }
 
 /* end nav */
+
