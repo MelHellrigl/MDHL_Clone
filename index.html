@@ -2,37 +2,344 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grido</title>
-    <link rel="stylesheet" href="./styles.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grido</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <header>
-        <nav>(Martin)</nav>
-    </header>
-    <main>
-        <div>Carrousel de imagenes (Matias)
-            REQUEST
+  <header>
+    <div class="lista container-fluid">
+      <div class="d-flex justify-content-end">
+        <ul class="lista-info d-flex z-3">
+          <li><a class="item item-p" href="#">Empresa</a></li>
+          <li><a class="item item-p" href="#">Recetas</a></li>
+          <li><a class="item item-p" href="#">Novedades</a></li>
+          <li><a class="item item-p" href="#">Prensa</a></li>
+          <li><a class="item item-p" href="#">Preguntas Frecuentes</a></li>
+          <li><a class="item item-p" href="#">Heladerias sociales</a></li>
+          <li><a class="item" href="#"><i class="bi bi-facebook"></i></a></li>
+          <li><a class="item" href="#"><i class="bi bi-instagram"></i></a></li>
+          <li><a class="item" href="#"><i class="bi bi-youtube"></i></a></li>
+          <li><a class="item" href="#"><i class="bi bi-tiktok"></i></a></li>
+          <li><a class="item" href="#"><i class="bi bi-twitter"></i></a></li>
+          <li><a class="item" href="#"><i class="bi bi-linkedin"></i></a></li>
+          <li><a class="item button container" href="#">Elegí tú país<i class="bi bi-caret-down-fill"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg z-1">
+      <div class="container-fluid">
+        <img class="logo-grido" src="./images/logo-grido.png" alt="logo-grido">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end z-1" id="navbarNav">
+          <ul class="navbar-nav d-flex lista2 ">
+            <li class="nav-item">
+              <a class="nav-link item2" href="#">PRODUCTOS<i class="bi bi-caret-down-fill"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link item2 ocult" href="#">BENEFICIOS<i class="bi bi-caret-down-fill arrow-hidden"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link item2" href="#">CLUB GRIDO<i class="bi bi-caret-down-fill arrow-hidden"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link item2" href="#">LOCALES<i class="bi bi-caret-down-fill arrow-hidden"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link item2" href="#">CALIDAD<i class="bi bi-caret-down-fill arrow-hidden"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link item2" href="#">¡ABRÍ TÚ GRIDO!<i class="bi bi-caret-down-fill"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link item2" href="#">CONTACTO<i class="bi bi-caret-down-fill arrow-hidden"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link item2 ocult" href="#">EMPRESA<i class="bi bi-caret-down-fill arrow-hidden"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link item2 ocult" href="#">NOVEDADES<i class="bi bi-caret-down-fill arrow-hidden"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link item2 ocult" href="#">HELADERIAS SOCIALES<i
+                  class="bi bi-caret-down-fill arrow-hidden"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link item2 button2" href="#"><i class="bi bi-caret-right-fill"></i>PEDÍ
+                ON-LINE</a>
+            </li>
+          </ul>
         </div>
-        <section>Club Grido (Martin Castro)</section>
-        <img src="" alt="">
-        <section>QUE HAY DE NUEVO (Arobio)</section>
-        <section>Recetas (Mel Hellrigl)</section>
-    </main>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div id="carousel" class="carousel slide z-0 " data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-none d-sm-block d-block w-100" src="./images/Banners-Desktop.jpg" alt="First slide">
+          <img class="d-block d-sm-none w-100" src="./images/Banners-Mobile.jpg" alt="First slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-none d-sm-block d-block w-100" src="./images/Banner-Web-smoothie-Maracuya-1.jpg"
+            alt="First slide">
+          <img class="d-block d-sm-none w-100" src="./images/Banner-mobile-smoothie-Maracuya-450x600-1.png"
+            alt="First slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-none d-sm-block d-block w-100" src="./images/BannerWEB-1920X1000.png" alt="First slide">
+          <img class="d-block d-sm-none w-100" src="./images/Banner-mobile-mundial-450x600-1.png" alt="First slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-none d-sm-block d-block w-100" src="./images/BannerWEB-1920X1000-nuevo-Sundae.png"
+            alt="First slide">
+          <img class="d-block d-sm-none w-100" src="./images/Banner-mobile-mundial-450x600-nuevo-sundae3.png"
+            alt="First slide">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <section id="inicio" class="container">
+      <div class="container-clubGrido">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-10 " id="border">
+          <div class="row firstrow">
+            <div class="col-md-4">
+              <div class="logo">
+                <img id="logo-club-grido" src="./images/logo-club-grido.png" alt="logo-club-grido">
+              </div>
+            </div>
+            <div class="col-md-4">
+              <h5 class="title"> CLUB GRIDO</h5>
+            </div>
+            <div class="col-md-4"></div>
+          </div>
+          <div class="row space-clubGrido">
+            <div class="col-md-4">
+              <a href="https://www.clubgrido.com.ar/" target="_blank">
+                <div class="img-tarjetaclub">
+                  <!-- <img src="./assets/Captura de pantalla (5).png" alt="tarjetaclub"> -->
+                  <img src="./images/cada-momento-suma.png" alt="tarjetaclub">
+                </div>
+              </a>
+            </div>
+            <div class="col-md-4 col-li">
+              <ul class="tab-club-items">
+                <li><a href="https://www.clubgrido.com.ar/Home/WhatIs" target="_blank">• ¿Qué es Club Grido?</a><br>
+                </li>
+                <li><a href="https://www.clubgrido.com.ar/Home/Promotion" target="_blank">• Beneficios</a><br></li>
+                <li><a href="https://www.clubgrido.com.ar/Canjes" target="_blank">• ¿Cómo sumar y canjear
+                    puntos?</a><br></li>
+                <li><a href="https://www.clubgrido.com.ar/Home/Faq" target="_blank">• Preguntas Frecuentes</a><br></li>
+                <div class="btn-quierosersocio">
+                  <p class="btn-p">QUIERO SER SOCIO</p>
+                </div>
+              </ul>
+            </div>
+            <div class="col-md-4">
+              <div id="carousel-home-clubgrido" class="carousel slide">
+                <div class="carousel-inner text-center">
+                  <div class="item active                                ">
+                    <div class="col-md-12" id="carousel-a">
+                      <a href="https://www.clubgrido.com.ar/#viewBenefits" target="_blank">
+                        <img width="190" height="169"
+                          src="https://argentina.gridohelado.com/wp-content/uploads/2016/04/canje-grido-tentacion.png"
+                          class="attachment-190x190 size-190x190 wp-post-image" alt="" decoding="async" loading="lazy"
+                          srcset="https://argentina.gridohelado.com/wp-content/uploads/2016/04/canje-grido-tentacion.png 321w, https://argentina.gridohelado.com/wp-content/uploads/2016/04/canje-grido-tentacion-300x266.png 300w"
+                          sizes="(max-width: 190px) 100vw, 190px">
+                        <p id="tentacion">Tentación</p>
+                        <!--<img src="https://argentina.gridohelado.com/wp-content/themes/grido/images/home/beneficios/b1.jpg" class="img-responsive" alt="...">-->
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                  data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                  data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
 
+            </div>
+          </div>
+        </div>
+        <div class="col-md-1"></div>
+      </div>
+    </section>
+    <div class="container separation">
+      <div class="calidad ">
+        <img class="img-calidad" src="./images/home-calidad.jpg" alt="Grido calidad">
+      </div>
+    </div>
+    <section class="container separation">
+      <div class="whatsNew col-md-12">
+        <h2 class="whatsNew_title">¿QUÉ HAY DE NUEVO?</h2>
+        <div class="whatsNew_gallery d-flex flex-wrap justify-content-start">
+          <div class="card text-bg-dark">
+            <a href="">
+              <img src="images/Novedad-2-300x300.jpg" class="card-img" alt="...">
+              <div class="card-img-overlay">
+                <h5 class="card-title">Llegó Rasti a Grido!</h5>
+                <p class="card-text">Rasti y Grido se unieron para que disfrutes tu helado jugando. Pedí dos bochas de
+                  tus
+                  sabores favoritos y llevate […]</p>
+              </div>
+            </a>
+          </div>
+          <div class="card text-bg-dark">
+            <a href="">
+              <img src="images/Novedad-1-scaled-e1673985442527-768x772.jpg" class="card-img" alt="...">
+              <div class="card-img-overlay">
+                <h5 class="card-title">Nuevo Smoothie Maracuyá!</h5>
+                <p class="card-text">Llegó a Grido el nuevo smoothie maracuyá, ananá y durazno. Arrancó el verano y en
+                  Grido nos preparamos con este […]</p>
+              </div>
+            </a>
+          </div>
+          <div class="card text-bg-dark">
+            <a href="">
+              <img src="images/Imagen-Sundae-400x400-1-300x300.png" class="card-img" alt="...">
+              <div class="card-img-overlay">
+                <h5 class="card-title">Seguimos alentando a la Selección!</h5>
+                <p class="card-text">La Selección está por entrar a la cancha y en Grido le seguimos haciendo el aguante
+                  con el lanzamiento del […]</p>
+              </div>
+            </a>
+          </div>
+          <div class="card text-bg-dark">
+            <a href="">
+              <img src="images/Pistacho-Novedad-300x300.jpg" class="card-img" alt="...">
+              <div class="card-img-overlay">
+                <h5 class="card-title">Llega un nuevo sabor a Grido: Pistacho!</h5>
+                <p class="card-text">Enamorarse a primera cucharada no es tarea fácil, pero llega a Grido el sabor con
+                  el
+                  que vas a hacer […]</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="whatsNew_seeMore">
+          <a href="#">Ver más</a>
+        </div>
+      </div>
+    </section>
+    <section class=" container separation">
+      <div class="whatsNew col-md-12">
+        <h2 class="whatsNew_title">Recetas</h2>
+        <div class="whatsNew_gallery d-flex flex-wrap justify-content-start">
+          <div class="card ">
+            <a href="https://argentina.gridohelado.com/helado-frito/">
+              <img src="./images/Helado-Frito.jpg" class="card-img card-img-receta" alt="Helado Frito">
+              <div class="card-img-overlay">
+                <h5 class="card-title">HELADO FRITO</h5>
+                <p class="card-text">Rinde 4 porciones.
 
+                  🥄 INGREDIENTES:
 
+                  250gr. Tentación sabor Vainilla.
 
-    <footer>
+                  16 rodajas de pan lactal blanco.
+
+                  2 huevos.
+
+                  300gr. de pan […]</p>
+              </div>
+            </a>
+          </div>
+          <div class="card ">
+            <a href="https://argentina.gridohelado.com/torta-colorida/">
+              <img src="./images/Torta-Colorida.jpg" class="card-img card-img-receta" alt="Torta Colorida">
+              <div class="card-img-overlay">
+                <h5 class="card-title">TORTA COLORIDA</h5>
+                <p class="card-text">Rinde 10 porciones.
+
+                  🥄 INGREDIENTES:
+
+                  Tentación Crema Cookie ½ pote.
+
+                  Tentación Frutilla ½ pote.
+
+                  Tentación Chocolate ½ pote.
+
+                  Helado sabor […]</p>
+              </div>
+            </a>
+          </div>
+          <div class="card ">
+            <a href="https://argentina.gridohelado.com/tapitas-de-alfajores-helados/">
+              <img src="./images/Maicenitas.jpg" class="card-img card-img-receta" alt="Tapitas de alfajores helados">
+              <div class="card-img-overlay">
+                <h5 class="card-title">TAPITAS DE ALFAJORES HELADOS</h5>
+                <p class="card-text">Rinde 15 porciones/alfajorcitos.
+
+                  🥄 INGREDIENTES:
+
+                  30 tapas/ galletitas de maicena.
+
+                  1 pote Tentación Dulce de Leche (puede ser de chocolate también) […]</p>
+              </div>
+            </a>
+          </div>
+          <div class="card ">
+            <a href="https://argentina.gridohelado.com/copa-tentacion-citrica/">
+              <img src="./images/Copa-Citrica.jpg" class="card-img card-img-receta" alt="Copa tentacion cítrica">
+              <div class="card-img-overlay">
+                <h5 class="card-title">COPA TENTACIÓN CÍTRICA</h5>
+                <p class="card-text">Rinde 2 porciones.
+
+                  🥄 INGREDIENTES:
+
+                  3 pomelos.
+
+                  3 naranjas.
+
+                  100 grs. de azúcar mascabo.
+
+                  50 grs. de manteca.
+
+                  50 ml […]</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="whatsNew_seeMore">
+          <a href="#">Ver más</a>
+        </div>
+      </div>
+    </section>
+    <div class="chat-grido position-fixed">
+      <img src="./images/chat.png" alt="...">
+      <button type="button">Chat Grido</button>
+    </div>
+  </main>
+  <footer class=" container-fluid separation">
         <div class="d-flex  py-4">
                   <div class="col-md-7 pull-left">
                     <ul class="foot_nav col-md-4">
@@ -58,16 +365,10 @@
           <div class="bottom-footer text-center text-primary" >
             <div class="text-footer">Copyright 2016. Todos los derechos reservados - Helacor - Córdoba - Argentina</div>
           </div>
-
-
-
-    </footer>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-        crossorigin="anonymous"></script>
-
-        
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
